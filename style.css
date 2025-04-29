@@ -1,0 +1,21 @@
+* {
+    background-color: beige;
+}
+
+ol, ul {
+    font-size: 30px;
+
+}
+
+ol li {
+    background-color: lightpink;
+}
+
+.mid {
+    background-color: blue;
+}
+
+#hobbies {
+    color: aquamarine;
+    /* font-size: 10px; */
+}

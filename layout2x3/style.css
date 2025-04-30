@@ -1,0 +1,49 @@
+container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+row {
+    display: flex;
+}
+
+div {
+    font-size: 50px;
+    border: 2px black solid;
+    padding: 100px;
+    margin: 10px;
+}
+
+#A {
+    background-color: red;
+    /* order: 2; */
+}
+
+#B {
+    background-color: orange;
+}
+
+#C {
+    background-color: yellow;
+}
+
+#D {
+    background-color: green;
+    /* order: -2; */
+}
+
+#E {
+    background-color: blueviolet;
+}
+
+#F {
+    background-color: indigo;
+}
+
+#G {
+    background-color: violet;
+}
+
